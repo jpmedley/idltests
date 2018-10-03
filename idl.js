@@ -22,6 +22,22 @@ class Interface() {
     }
   }
 
+  _loadMembers() {
+    this.members;
+    this.properties;
+    let mems = this.interface.members;
+    for (let m in mems) {
+      switch (mems[m].type) {
+        case 'attribute':
+          // do
+          break;
+        case 'operation':
+          // do
+          break;
+      }
+    }
+  }
+
   get methods() {
     // process both properties and methods, then delete this.interface.members
     if (this.interface.members) {
