@@ -4,10 +4,12 @@ const fs = require('fs');
 const utils = require('./utils.js');
 const webidl2 = require('webidl2');
 
-// const testFile = './idl/modules/xr/xr_device.idl';
-// const someIDL = utils.getIDLFile(testFile);
-// const tree = webidl2.parse(someIDL);
-// const text = webidl2.write(tree);
+const testFile = './idl/modules/xr/xr_device.idl';
+const testIDL = utils.getIDLFile(testFile);
+const tree = webidl2.parse(testIDL);
+const text = webidl2.write(tree);
+console.log(text);
+console.log(testIDL);
 
 // let directories = [];
 let files = [];
