@@ -1,0 +1,25 @@
+{
+  "name": "idltests",
+  "version": "1.0.0",
+  "description": "Kick tires on webidl2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpmedley/idltests.git"
+  },
+  "author": "Joseph Medley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpmedley/idltests/issues"
+  },
+  "homepage": "https://github.com/jpmedley/idltests#readme",
+  "dependencies": {
+    "enquirer": "^1.0.3",
+    "fs": "0.0.1-security",
+    "prompt-choices": "^5.0.0",
+    "webidl2": "^14.0.1"
+  }
+}
